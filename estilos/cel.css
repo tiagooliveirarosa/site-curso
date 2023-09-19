@@ -13,6 +13,8 @@ text-align: center;
 
  menu {
     width: 100vw;
+    padding-top: 10px;
+    display: none;
 }
 
 header > h2 {
@@ -27,9 +29,18 @@ padding-top: 10px;
 text-indent: 20px;
 }
 
-menu {
-    padding-top: 10px;
+span#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
+
+span#burguer:hover {
+    background-color: gray;
+    color: white;
+}
+
 
 menu > ul {
     list-style-type: none;
