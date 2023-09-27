@@ -8,6 +8,8 @@
 
 body {
     background-image: url(../imagens/leyendo-un-libro-en-la-playa.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 header > h1{
