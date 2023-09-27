@@ -6,5 +6,9 @@
 
 header {
     background-image: url(../imagens/leyendo-un-libro-en-la-playa.jpg);
-    
+    display: block;
+    background-repeat: no-repeat;
+    margin: 10px;
+    width: auto;
+    height: auto;
 }
