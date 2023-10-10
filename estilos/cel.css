@@ -7,16 +7,21 @@
 }
 
 body {
-    background-image: url(../imagens/leyendo-un-libro-en-la-playa.jpg);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+    
+        background-image: url(../imagens/desenhobarco.jpeg);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    
 }
 
-header > h1{
-text-align: center;
+#logocentro {
+    display: flex;
+    justify-content: center;
 }
+
+
 
  menu {
     width: 100vw;
@@ -57,6 +62,7 @@ menu > ul > li > a:hover {
 }
 
 main  {
+    background-image: url(../imagens/imagemde\ papel.jpeg);
     width: 90vw;
     background-color: rgb(248, 248, 215);
     margin: auto;
@@ -65,59 +71,101 @@ main  {
     border-radius: 10px;
 }
 
-main > content {
-    display: block;
-    background-color: white;
-    width: 900px;
-    height: 250px;
-}
 
 main > content > h1 {
     padding-bottom: 10px;
     text-align: center;
 }
 
-main > content > div  {
+
+
+.container {
+    
     display: inline-block;
-    padding-left: 20px;
     
 }
-
-main > content > div#curso1 {
-    width: 200px;
+ /* Card */
+.card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+}
+/* Card Header */
+.card-header {
+    width: 100%;
     height: 200px;
-    
+    overflow: hidden;
 }
 
-main > content > div#curso2 {
-    width: 200px;
-    height: 200px;
-   
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
 }
 
-main > content > div#curso3 {
-    width: 200px;
-    height: 200px;
-    
+/* Card Body*/
+
+.card-body {
+    height: 170px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-main > content > div#curso4 {
-    width: 50px;
-    height: 50px;
-    
+.card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+}
+ 
+.card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
 }
 
-
-
-main > content > div > a {
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    background-image: url(../imagens/bolo\ gelado.png);
+.card-valor {
+    background-color: antiquewhite;
     text-align: center;
     
-    
 }
+
+/* Card Footer */
+.card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: black
+}
+
+.card-footer a {
+    color: #fff;
+    display: block;
+    padding: 19px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card-footer a:hover {
+    background-color: gray;
+}
+
+/* cores do card */
+.card-1 .card-footer {
+    background-color: #F2E8D3;
+}
+
+.card-2 .card-footer {
+    background-color:#FF3575 ;
+}
+
+.card-3 .card-footer {
+    background-color: #FF223C;
+}
+
 
 
 main > h2 {
@@ -143,4 +191,56 @@ main > article > p {
     margin-top: 10px;
     text-align: justify;
     text-indent: 20px;
+}
+
+.rodape {
+    width: 100vw;
+    height: 150px;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.rodape > div{
+    display: inline-block;   
+}
+
+.rodnos {
+    
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.rodnos > h5 {
+    text-align: center;   
+}
+.rodnos > h6 {
+    text-align: center;
+}
+
+.rodcont {
+    
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.rodcont > h5 {
+    text-align: center;
+}
+
+.rodsite {
+    
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.rodsite > h5 {
+    text-align: center;
 }
