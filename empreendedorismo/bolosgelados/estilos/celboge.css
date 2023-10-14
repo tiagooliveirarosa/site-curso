@@ -46,3 +46,28 @@ header > div > a {
 #ca03 {
     width: 100vw;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+}
+#texto01 {
+    display: flex;
+    justify-content: center;
+}
+
+.qins01 {
+    display: flex;
+    justify-content: center;
+}
+#queins {
+    width: 100vw;
+}
+
+.bol04 {
+    display: flex;
+    justify-content: center;
+}
+#imal04 {
+width: 100vw;
+}
