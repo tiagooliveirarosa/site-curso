@@ -71,3 +71,8 @@ h1 {
 #imal04 {
 width: 100vw;
 }
+
+.alunos {
+    display: flex;
+    justify-content:space-between;
+}
