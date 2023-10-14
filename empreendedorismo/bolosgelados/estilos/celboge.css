@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(68, 68, 241);
+    width: 100vw;
+    
+}
+
+header > div > a {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#home > a {
+    text-decoration: none;
+    color: black;
+}
+#home > a:hover {
+    color: orange;
+}
+
+#bol01 {
+    width: 100vw;
+}
+
+.video01 {
+    display: flex;
+    justify-content: center;
+}
+
+.capt03 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#ca03 {
+    width: 100vw;
+}
