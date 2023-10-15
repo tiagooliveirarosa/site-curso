@@ -46,22 +46,38 @@ header > div > a {
     justify-content: center;
 }
 #dol02 {
-    position: relative;
+    
     width: 100vw;
 }
-#spdol02 {
-    
-    position: absolute;
-    left:20px ;
-    top: 644px;
+.boton01 {
+    width: 100vw;
+    background-color: black;
+    position: relative;
 }
-#qg01 {
-    width: 450px;
-    height: 80px;
-    border-radius: 35px;
+#bot01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+}
+#bot01 > a {
+    
+    color: white;
+    border: 2px  solid black;
+    border-radius: 8px;
+    padding-top: 5px;
+    background-color: #11C711;
+    text-decoration: none;
+    
+}
+#bot01 > a:hover {
+    background-color: #076d07;
 }
 
 .vid01 {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -186,15 +202,32 @@ header > div > a {
 #dol15 {
     width: 100vw;
 }
-.met016 {
+
+.boton01 {
+    width: 100vw;
+    background-color: black;
     position: relative;
+}
+#bot02 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
 }
-#dol16 {
-    left: 25%;
-    position: absolute;
-    border-radius: 50px;
+#bot02 > a {
+    
+    color: white;
+    border: 2px  solid black;
+    border-radius: 8px;
+    padding-top: 5px;
+    background-color: #11C711;
+    text-decoration: none;
+    
+}
+#bot02 > a:hover {
+    background-color: #076d07;
 }
 
 
