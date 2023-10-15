@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
 }
@@ -76,3 +82,17 @@ width: 100vw;
     display: flex;
     justify-content:space-between;
 }
+
+.bol05 {
+    display: flex;
+    justify-content: center;
+}
+#imal05 {
+width: 100vw;
+}
+
+
+
+
+
+
