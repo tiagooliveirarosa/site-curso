@@ -66,7 +66,246 @@ header > div > a {
     justify-content: center;
     width: 100vw;
 }
+.met03 {
+    display: flex;
+    justify-content: center;
+}
+#dol03 {
+    
+    width: 100vw;
+}
+.met04 {
+    display: flex;
+    justify-content: center;
+}
+#dol04 {
+    
+    width: 100vw;
+}
+.met05 {
+    display: flex;
+    justify-content: center;
+}
+#dol05 {
+    
+    width: 100vw;
+}
+.met06 {
+    display: flex;
+    justify-content: center;
+}
+#dol06 {
+    
+    width: 100vw;
+}
+.met07 {
+    display: flex;
+    justify-content: center;
+}
+#dol07 {
+    
+    width: 100vw;
+}
+.met08 {
+    display: flex;
+    justify-content: center;
+}
+#dol08 {
+    
+    width: 100vw;
+}
+.met09 {
+    display: flex;
+    justify-content: center;
+}
+#dol09 {
+    
+    width: 100vw;
+}
 
+.vid02 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.vid03 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.met10 {
+    display: flex;
+    justify-content: center;
+}
+#dol10 {
+    
+    width: 100vw;
+}.met11 {
+    display: flex;
+    justify-content: center;
+}
+#dol11 {
+    
+    width: 100vw;
+}
+.met12 {
+    display: flex;
+    justify-content: center;
+}
+#dol12 {
+    
+    width: 100vw;
+}
+.met013 {
+    display: flex;
+    justify-content: center;
+}
+#dol13 {
+    width: 100vw;
+}
+
+.vid04 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+#dol14 {
+    width: 50vw;
+}
+#spvi03 {
+    left: 100%;
+    position: absolute;
+}
+
+.met015 {
+    display: flex;
+    justify-content: center;
+}
+#dol15 {
+    width: 100vw;
+}
+.met016 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#dol16 {
+    left: 25%;
+    position: absolute;
+    border-radius: 50px;
+}
+
+
+.met017 {
+    display: flex;
+    justify-content: center;
+}
+#dol17 {
+    margin-top: 70px;
+    width: 100vw;
+}
+
+@media screen and (max-width: 768px)   {
+
+    
+    #dol02 {
+        position: relative;
+        width: 100vw;
+    }
+    #spdol02 {
+        
+        position: absolute;
+        left:1vw ;
+        top: 55vh;
+    }
+    #qg01 {
+        
+        
+        width: 38vw;
+        height: 6vh;
+        border-radius: 35px;
+    }
+
+
+    #dol14 {
+        display: block;
+        justify-content: center;
+    }
+
+    #spvi03 {
+        display: none;
+        
+        
+    }
+
+    #spvid03 {
+        margin: auto;
+        display: block;
+        justify-content: center;
+        
+        
+    }
+    
+    .met17 {
+        margin-top: 80px;
+    }
+
+    .met016 {
+        width: 50vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #dol16 {
+        margin-top: 50px;
+        width: 400px;
+        left: 60px;
+        position: absolute;
+        border-radius: 50px;
+       
+    }
+
+ }
+
+ @media screen and (max-width: 992px) {
+
+    #dol02 {
+        position: relative;
+        width: 100vw;
+    }
+    #spdol02 {
+        width: 50px;
+        position: absolute;
+        left:10px ;
+        top: 430px;
+    }
+    #qg01 {
+        width: 35vw;
+        height: 45px;
+    }
+
+
+    
+    .met016 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    #dol16 {
+        margin-top: 100px;
+        width: 600px;
+        left: 80px;
+        position: absolute;
+        border-radius: 50px;
+       
+    }
+    .met17 {
+        margin-top: 200px;
+    }
+ }
 
 
 
