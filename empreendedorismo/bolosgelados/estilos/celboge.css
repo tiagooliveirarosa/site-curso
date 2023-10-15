@@ -91,7 +91,49 @@ width: 100vw;
 width: 100vw;
 }
 
+.fotocar > img{
+    width: 300px;
+    height: 300px;
+}
 
+.bol06 {
+    display: flex;
+    justify-content: center;
+}
+#imal06 {
+width: 100vw;
+}
+
+.bol07 {
+    display: flex;
+    justify-content: center;
+}
+#imal07 {
+width: 100vw;
+}
+
+.bol08 {
+    display: flex;
+    justify-content: center;
+}
+#imal08 {
+width: 100vw;
+}
+.bol09 {
+    display: flex;
+    justify-content: center;
+}
+#imal09 {
+width: 100vw;
+}
+
+.bol10 {
+    display: flex;
+    justify-content: center;
+}
+#imal10 {
+width: 100vw;
+}
 
 
 
