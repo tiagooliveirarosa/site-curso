@@ -7,8 +7,7 @@
 }
 
 body {
-    
-        background-image: url(../imagens/desenhobarco.jpeg);
+        background-color: rgb(68, 68, 241);
         background-size: 100vw;
         background-repeat: no-repeat;
         background-position: center top;
@@ -62,9 +61,8 @@ menu > ul > li > a:hover {
 }
 
 main  {
-    background-image: url(../imagens/imagemde\ papel.jpeg);
+    background-color: rgb(198, 203, 203);
     width: 90vw;
-    background-color: rgb(248, 248, 215);
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -159,7 +157,7 @@ main > content > h1 {
 }
 
 .card-2 .card-footer {
-    background-color:#FF3575 ;
+    background-color: #005D40;
 }
 
 .card-3 .card-footer {
