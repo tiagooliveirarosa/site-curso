@@ -33,6 +33,28 @@ header > div > a {
 #home > a:hover {
     color: orange;
 }
+.link01 {position: relative;
+    margin-top: 30px;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.link01 > a {
+    position: absolute;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+    background-color: #F5464D;
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.link01 > a:hover {
+    background-color: rgb(101, 101, 228);
+    box-shadow:30px black;
+}
 
 .vid01 {
     display: flex;
