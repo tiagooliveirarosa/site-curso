@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #EEEEF2;
 }
 
 header {
@@ -34,132 +34,17 @@ header > div > a {
     color: orange;
 }
 
-#bol01 {
+.vid01 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imag01 {
+    display: flex;
+    justify-content: center;
     width: 100vw;
 }
-
-.video01 {
-    display: flex;
-    justify-content: center;
-}
-
-.capt03 {
-    display: flex;
-    justify-content: center;
-}
-
-
-#ca03 {
+#grin01 {
     width: 100vw;
 }
-
-h1 {
-    color: white;
-    text-align: center;
-}
-#texto01 {
-    display: flex;
-    justify-content: center;
-}
-
-.qins01 {
-    display: flex;
-    justify-content: center;
-}
-#queins {
-    width: 100vw;
-}
-
-.bol04 {
-    display: flex;
-    justify-content: center;
-}
-#imal04 {
-width: 100vw;
-}
-
-.alunos {
-    display: flex;
-    justify-content:space-between;
-}
-
-.bol05 {
-    display: flex;
-    justify-content: center;
-}
-#imal05 {
-width: 100vw;
-}
-
-.fotocar > img{
-    width: 300px;
-    height: 300px;
-}
-
-.bol06 {
-    display: flex;
-    justify-content: center;
-}
-#imal06 {
-width: 100vw;
-}
-
-.bol07 {
-    display: flex;
-    justify-content: center;
-}
-#imal07 {
-width: 100vw;
-}
-
-.bol08 {
-    display: flex;
-    justify-content: center;
-}
-#imal08 {
-width: 100vw;
-}
-.bol09 {
-    display: flex;
-    justify-content: center;
-}
-#imal09 {
-width: 100vw;
-}
-
-.bol10 {
-    display: flex;
-    justify-content: center;
-}
-#imal10 {
-width: 100vw;
-}
-.bol11 {
-    display: flex;
-    justify-content: center;
-}
-#imal11 {
-width: 100vw;
-}
-.bol12 {
-    display: flex;
-    justify-content: center;
-}
-#imal12 {
-width: 100vw;
-}
-.bol13 {
-    display: flex;
-    justify-content: center;
-}
-#imal13 {
-width: 100vw;
-}
-.bol14 {
-    display: flex;
-    justify-content: center;
-}
-#imal14 {
-width: 100vw;
-}
-
