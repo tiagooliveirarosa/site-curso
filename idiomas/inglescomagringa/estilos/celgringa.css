@@ -38,6 +38,13 @@ header > div > a {
     display: flex;
     justify-content: center;
 }
+.vid02 {
+    width: 100vw;
+    background-color: #1565BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .imag01 {
@@ -47,4 +54,16 @@ header > div > a {
 }
 #grin01 {
     width: 100vw;
+}
+#grin25 {
+    width: 500px;
+}
+#grin32 {
+    width: 800px;
+}
+#grin33 {
+    width: 400px;
+}
+#grinfi {
+    width: 650px;
 }
