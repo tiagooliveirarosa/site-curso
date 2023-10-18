@@ -12,16 +12,17 @@ body {
         background-repeat: no-repeat;
         background-position: center top;
         background-attachment: fixed;
+        
     
 }
 
-#logocentro {
+/*#logocentro {
     display: flex;
     justify-content: center;
-}
+}*/
 
 .banner {
-    width: ;
+    width: 100vw;
     background-color: #242D4C;
     display: flex;
     justify-content: center;
@@ -69,7 +70,7 @@ menu > ul > li > a:hover {
 
 main  {
     background-color: rgb(198, 203, 203);
-    width: 90vw;
+    width: 100vw;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
