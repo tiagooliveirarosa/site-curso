@@ -20,7 +20,13 @@ body {
     
 }
 
-#logocentro {
+/*#logocentro {
+    display: flex;
+    justify-content: center;
+}*/
+.banner {
+    width: 100vw;
+    background-color: #242D4C;
     display: flex;
     justify-content: center;
 }
