@@ -1,11 +1,119 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
-   #queins {
-    width: 70vw;
+@media screen and (max-width: 768px) {
+   main #clogoimg {
+    width: 400px;
+   }
+   main #clogo {
+      background-color: #FFD4DC;
+    height: 650px;
+   }
+   iframe {
+      width: 350px;
+      height: 350px;
+      padding-top: 10px;
+    display: block;
+    margin: auto;
    }
 
-   #imal10 {
-    width: 70vw;
+   i {
+      width: 300px;
+      height: 380px;
    }
+   #cbi {
+      display: block;
+      
+   }
+   #itbi01 {
+    
+      background-color: white;
+      text-align: center;
+      border-radius: 20px;
+      
+      margin-inline: 20px;
+      width: 400px;
+      height: 1000px;
+  }
+  #itbi01 > h2 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      text-align: center;
+      color: #6C3A23;
+  }
+  #itbi01 > ul {
+      text-align: initial;
+      font-size: 1.5em;
+      list-style-position: inside;
+     
+  }
+  #itbi01 > a {
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      color: white;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      background-color: #1DAD27;
+      width: 400px;
+      height: 50px;
+      border-radius: 30px 7px 30px 7px;
+  }
+  #itbi01 > a:hover {
+      background-color:#F3B650 ;
+      cursor: pointer;
+  }
+  #itbi01 > img {
+   display: block;
+   margin: auto;
+   padding-top: 10px;
+  width: 300px;
+  height: 50px;
+  }
+  #itbi02 {
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   padding-top: 30px;
+   margin-inline: 20px;
+   width: 600px;
+   height: 1150px;
+}
+#itbi02 > img {
+   display: block;
+   margin: auto;
+   width: 500px;
+   }
+   .cert {
+      position: relative;
+      background-color: #6B3B20;
+      height: 250px;
+  }
+   .cert > img {
+      display: block;
+      margin: auto;
+      width: 98vw;
+      height: 250px;
+  }
+  #h1cert {
+   position: absolute;
+   font-family: monospace;
+   font-size: 2.7em;
+   color: #FBD565;
+   left:250px;
+   top: 20px;
+}
+#pcert {
+   text-align: justify;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: .6em;
+   color: white;
+   left: 235px;
+   top: 130px;
+}
+   
 }

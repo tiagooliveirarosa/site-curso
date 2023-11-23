@@ -39,6 +39,7 @@ header > div > a {
 }
 
 main #clogoimg {
+    
     display: block;
     margin: auto;
 }
@@ -70,32 +71,224 @@ main #clogo > h2 {
     
 }
 
-main #clogo > button {
+
+
+main #cvideo {
+    background-color: white;
+}
+
+main #cvideo > h1 {
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #6C3A23;
+}
+
+iframe {
+    padding-top: 10px;
     display: block;
     margin: auto;
+}
+content {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+i {
+    background-color: #FFD1DC;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-inline: 20px;
+    width: 300px;
+    height: 200px;
+}
+i > p {
+    padding-top: 30px;
+}
+
+ #linkaf {
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
     background-color: #1DAD27;
-    width: 400px;
+    width: 300px;
     height: 50px;
     border-radius: 30px 7px 30px 7px;
 }
-
-main #clogo > button:hover {
+#linkaf:hover {
     background-color:#F3B650 ;
     cursor: pointer;
 }
+#ima02 {
+    display: block;
+    width: 450px;
+    margin: auto;
+}
+#bi {
+    margin-top: 50px;
+}
 
-main #clogo > button > a {
+.dbi {
+    background-color: white;
+}
+
+#cbi {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+#itbi01 {
+    
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 400px;
+    margin-inline: 20px;
+    width: 600px;
+    height: 1150px;
+}
+#itbi01 > h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #6C3A23;
+}
+#itbi01 > ul {
+    text-align: initial;
+    font-size: 1.5em;
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#itbi01 > a {
+    text-align: center;
+    padding: 15px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-weight: bold;
     color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #1DAD27;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px 7px 30px 7px;
 }
-
-main #clogo > button > a:hover {
-
+#itbi01 > a:hover {
+    background-color:#F3B650 ;
+    cursor: pointer;
 }
+#itbi01 > img {
+width: 280px;
+}
+#itbi02 {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-inline: 20px;
+    width: 600px;
+    height: 1150px;
+}
+#itbi02 > img {
+    width: 580px;
+    }
 
+.dbi2 {
+    background-color: white;
+    }
+    #dbi2 > i {
+        background-color: #E03D5E;
+    }
+    .cert {
+        position: relative;
+        background-color: #6B3B20;
+        height: 350px;
+    }
+    .cert > img {
+        display: block;
+        margin: auto;
+        width: 98vw;
+        height: 350px;
+    }
+    #h1cert {
+        position: absolute;
+        font-family: monospace;
+        font-size: 2.7em;
+        color: #FBD565;
+        left: 700px;
+        top: 80px;
+    }
+    #pcert {
+        text-align: justify;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        color: white;
+        left: 700px;
+        top: 180px;
+    }
+    .garan {
+        background-color: white;
+    }
+    .garan > img {
+        width: 98vw;
+        display: block;
+        margin: auto;
+        max-height: 300px;
+    }
+    .garan02 {
+        background-color: white;
+    }
+    .garan02 > img {
+        width: 98vw;
+        display: block;
+        margin: auto;
+        max-height: 500px;
+    }
+    .garan03 {
+        background-color: #101010;
+    }
+    .garan03 > img {
+        width: 98vw;
+        display: block;
+        margin: auto;
+        max-height: 500px;
+    }
+    #lin01 {
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        background-color: #1DAD27;
+        width: 300px;
+        height: 50px;
+        border-radius: 30px 7px 30px 7px;
+    }
+    #lin01:hover {
+        background-color:#F3B650 ;
+        cursor: pointer;
+    }
 
 footer {
     
