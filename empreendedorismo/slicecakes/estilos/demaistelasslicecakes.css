@@ -286,6 +286,9 @@
         display: block;
         
      }
+     #cbi > a {
+      width: 300px;
+     }
      #itbi01 {
       
         background-color: white;
@@ -294,7 +297,7 @@
         
         margin-inline: 20px;
         width: 320px;
-        height: 1000px;
+        height: 1250px;
     }
     #itbi01 > h2 {
         font-family: 'Dancing Script', cursive;
