@@ -280,6 +280,13 @@
       display: block;
       margin: auto;
      }
+     i {
+      width: 200px;
+      height: 400px;
+     }
+     #ima02 {
+      width: 300px;
+     }
   
      i {
         width: 300px;
@@ -291,6 +298,9 @@
      }
      #cbi > a {
       width: 300px;
+     }
+     #linkaf {
+      width: 290px;
      }
      #itbi01 {
       
@@ -354,6 +364,9 @@
      display: block;
      margin: auto;
      width: 500px;
+     }
+     #imgsl04 {
+      width: 300px;
      }
      #dbi2 {
       padding-right: 5px;
