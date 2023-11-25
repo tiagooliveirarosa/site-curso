@@ -367,8 +367,7 @@
      }
     
      #dbi2 {
-      padding-right: 5px;
-      padding-left: 5px;
+      
       width: 300px;
      }
      .cert {
@@ -403,7 +402,7 @@
      top: 130px;
   }
      footer {
-      width: 300px;
+      
       padding-left: 1px;
       font-size: 1em;
      }
