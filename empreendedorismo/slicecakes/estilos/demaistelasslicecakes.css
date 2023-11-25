@@ -356,7 +356,7 @@
      text-align: center;
      border-radius: 20px;
      padding-top: 30px;
-     margin-inline: 8px;
+     margin-inline: 20px;
      width: 600px;
      height: 1150px;
   }
@@ -367,7 +367,7 @@
      }
     
      #dbi2 {
-      margin-inline: 10px;
+      margin-inline: 8px;
       padding: 5px;
       width: 300px;
      }
