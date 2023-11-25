@@ -16,3 +16,10 @@
         width: 83vw;
     }
 }
+@media screen and (max-width: 568px) {
+    footer {
+      
+        padding-left: 1px;
+        font-size: .9em;
+       }
+}
