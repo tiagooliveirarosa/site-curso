@@ -270,9 +270,12 @@
         background-color: #FFD4DC;
       height: 750px;
      }
+     main #clogo > h1 {
+      font-size: 2em;
+     }
      iframe {
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
         padding-top: 10px;
       display: block;
       margin: auto;
@@ -352,6 +355,10 @@
      margin: auto;
      width: 500px;
      }
+     #dbi2 {
+      padding-right: 5px;
+      padding-left: 5px;
+     }
      .cert {
         position: relative;
         background-color: #6B3B20;
@@ -382,6 +389,8 @@
      left: 235px;
      top: 130px;
   }
-     
+     footer {
+      padding-left: 7px;
+     }
   
 }
