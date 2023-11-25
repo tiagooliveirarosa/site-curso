@@ -290,7 +290,7 @@
   
      i {
         width: 300px;
-        height: 400px;
+        height: 600px;
      }
      #cbi {
         display: block;
@@ -404,7 +404,7 @@
      top: 130px;
   }
      footer {
-      padding-left: 7px;
+      padding-left: 1px;
      }
   
 }
