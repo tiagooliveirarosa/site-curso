@@ -13,6 +13,9 @@
         background-repeat: no-repeat;
         
     }
+    main {
+        width: 98vw;
+    }
     .h1bebe > h1{
        padding-top: 20px;
         text-shadow: 5px 5px rgb(19, 141, 143);
