@@ -35,7 +35,7 @@
         font-weight: bold;
     }
     .bebe > a {
-        font-size: 30px;
+        font-size: 20px;
         width: 300px;
         height: 50px;
         padding-top: 5px;
@@ -62,20 +62,20 @@
         background-color: #EED8BF;
     }
     div.q1 {
-        margin: 30px;
+        margin: 20px;
         display: inline-block;
         width: 300px;
         height: 500px;
     }
     div.q1 > img {
         width: 300px;
-        padding-left: 50px;
+        padding-left: 30px;
         display: block;
         margin: auto;
     }
     div.q1 > p {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: justify;
         text-indent: 20px;  
     }
@@ -83,20 +83,20 @@
         background-color: #EED8BF;
     }
     div.q2 {
-        margin: 30px;
+        margin: 20px;
         display: inline-block;
         width: 300px;
         height: 500px;
     }
     div.q2 > img {
         width: 300px;
-        padding-left: 50px;
+        padding-left: 30px;
         display: block;
         margin: auto;
     }
     div.q2 > p {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: justify;
         text-indent: 20px;  
     }
@@ -128,6 +128,7 @@
         padding-top: 10px;
     }
     .bebe > a {
+
         width: 300px;
     }
 
