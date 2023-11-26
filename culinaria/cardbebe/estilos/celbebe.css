@@ -124,6 +124,10 @@
         color: rgb(106, 31, 236);
         padding-top: 10px;
     }
+    .bebe > a {
+        width: 300px;
+    }
+    
     #di6 > h1 {
         margin-top: 20px;
         font-size: 17px;
