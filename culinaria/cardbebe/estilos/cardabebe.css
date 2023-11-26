@@ -55,6 +55,7 @@ header > div > a {
     font-size: 100px;
 }
 .h1bebe > h2 {
+    margin-top: 50px;
     text-align: center;
     color: white;
 }
@@ -64,9 +65,143 @@ header > div > a {
 .h1bebe > p {
     text-align: center;
     color: white;
+    font-weight: bold;
 }
+.bebe > a {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #5EDB76;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: white;  
+}
+.bebe > a:hover {
+    background-color: rgb(21, 109, 39);
+}
+#bl {
+    text-align: center;
+    
+    text-shadow: none;
+    color: rgb(106, 31, 236);
+    font-family: 'Luckiest Guy';
+    font-size: 25px;
+}
+.dmain {
+    background-color: #EED8BF;
+}
+div.q1 {
+    margin: 30px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+div.q1 > img {
+    padding-left: 50px;
+    display: block;
+    margin: auto;
+}
+div.q1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 20px;  
+}
+.dmain2 {
+    background-color: #EED8BF;
+}
+div.q2 {
+    margin: 30px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+div.q2 > img {
+    padding-left: 50px;
+    display: block;
+    margin: auto;
+}
+div.q2 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 20px;  
+}
+.main3 > h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    color: rgb(106, 31, 236);
+}
+.main3 > h3 {
+    text-align: center;
+}
+.main4 > img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+div.q5 {
+    margin: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+div.q5 > ul > li{
+    font-family: 'Luckiest Guy';
+    color: rgb(106, 31, 236);
+    padding-top: 10px;
+}
+#di6 > h1 {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
 
+}
+div.di6 {
+    width: 500px;
+    display: inline-block;
+}
+#di62 > h1 {
+    text-shadow: 5px 5px rgb(19, 141, 143);
+    padding-top: 90px;
+    padding-left: 50px;
+    border-radius: 50%;
+    display: block;
+    height: 300px;
+    margin: auto;
+    width: 300px;
+    background-color: #D1E6C2;
+    font-size: 80px;
+    font-family: 'Luckiest Guy';
+    color: rgb(106, 31, 236);
+}
+.main7 > h1 {font-family: 'Luckiest Guy';
+    color: rgb(106, 31, 236);
+    text-align: center;
+    margin-top: 50px;
+}
+.main7 > p {
+    text-align: center;
+    margin-top: 50px;
+}
+.main7 > img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 
+}
+.main8 > img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+}
 
 footer {
     
