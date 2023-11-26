@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EED8BF;
+
+}
+
+header {
+    background-color: rgb(68, 68, 241);
+    
+    margin: auto;
+    
+}
+
+header > div > a {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#home > a {
+    text-decoration: none;
+    color: black;
+}
+#home > a:hover {
+    color: orange;
+}
+.h1bebe  {
+    height: 600px;
+    background-image: url(../imagens/3bebesmenu.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.h1bebe > h1{
+   
+    text-shadow: 5px 5px rgb(19, 141, 143);
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    color: #D1E6C2;
+    font-size: 100px;
+}
+.h1bebe > h2 {
+    text-align: center;
+    color: white;
+}
+.h1bebe > h2 > strong {
+    color: yellow;
+}
+.h1bebe > p {
+    text-align: center;
+    color: white;
+}
+
+
+
+footer {
+    
+    background-color: #4444F1;
+    columns: 2;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer, h5, h6 {
+    color: white;
+}
