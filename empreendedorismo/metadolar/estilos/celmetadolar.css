@@ -240,6 +240,18 @@ header > div > a {
     width: 100vw;
 }
 
+footer {
+    
+    background-color: #4444F1;
+    columns: 2;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer, h5, h6 {
+    color: white;
+}
+
 @media screen and (max-width: 768px)   {
 
     
