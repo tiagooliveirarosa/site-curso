@@ -34,210 +34,14 @@ header > div > a {
     color: orange;
 }
 
-.met01 {
-    display: flex;
-    justify-content: center;
-}
-#dol01 {
-    width: 100vw;
-}
-.met02 {
-    display: flex;
-    justify-content: center;
-}
-#dol02 {
-    
-    width: 100vw;
-}
-.boton01 {
-    width: 100vw;
-    background-color: black;
-    position: relative;
-}
-#bot01 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 100vw;
-    height: 50px;
-}
-#bot01 > a {
-    
-    color: white;
-    border: 2px  solid black;
-    border-radius: 8px;
-    padding-top: 5px;
-    background-color: #11C711;
-    text-decoration: none;
-    
-}
-#bot01 > a:hover {
-    background-color: #076d07;
-}
-
-.vid01 {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
-.met03 {
-    display: flex;
-    justify-content: center;
-}
-#dol03 {
-    
-    width: 100vw;
-}
-.met04 {
-    display: flex;
-    justify-content: center;
-}
-#dol04 {
-    
-    width: 100vw;
-}
-.met05 {
-    display: flex;
-    justify-content: center;
-}
-#dol05 {
-    
-    width: 100vw;
-}
-.met06 {
-    display: flex;
-    justify-content: center;
-}
-#dol06 {
-    
-    width: 100vw;
-}
-.met07 {
-    display: flex;
-    justify-content: center;
-}
-#dol07 {
-    
-    width: 100vw;
-}
-.met08 {
-    display: flex;
-    justify-content: center;
-}
-#dol08 {
-    
-    width: 100vw;
-}
-.met09 {
-    display: flex;
-    justify-content: center;
-}
-#dol09 {
-    
-    width: 100vw;
-}
-
-.vid02 {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
-.vid03 {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
-
-.met10 {
-    display: flex;
-    justify-content: center;
-}
-#dol10 {
-    
-    width: 100vw;
-}.met11 {
-    display: flex;
-    justify-content: center;
-}
-#dol11 {
-    
-    width: 100vw;
-}
-.met12 {
-    display: flex;
-    justify-content: center;
-}
-#dol12 {
-    
-    width: 100vw;
-}
-.met013 {
-    display: flex;
-    justify-content: center;
-}
-#dol13 {
-    width: 100vw;
-}
-
-.vid04 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-#dol14 {
-    width: 50vw;
-}
-#spvi03 {
-    left: 100%;
-    position: absolute;
-}
-
-.met015 {
-    display: flex;
-    justify-content: center;
-}
-#dol15 {
-    width: 100vw;
-}
-
-.boton01 {
-    width: 100vw;
-    background-color: black;
-    position: relative;
-}
-#bot02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 100vw;
-    height: 50px;
-}
-#bot02 > a {
-    
-    color: white;
-    border: 2px  solid black;
-    border-radius: 8px;
-    padding-top: 5px;
-    background-color: #11C711;
-    text-decoration: none;
-    
-}
-#bot02 > a:hover {
-    background-color: #076d07;
-}
-
-
-.met017 {
-    display: flex;
-    justify-content: center;
-}
-#dol17 {
-    margin-top: 70px;
-    width: 100vw;
+.backmain {
+    width: 100%;
+    background-color: #131313;
+    background-size: 100% 400px ;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url(../imagens/fundomain.png);
+    background-position: center center;
 }
 
 footer {
@@ -352,6 +156,9 @@ footer, h5, h6 {
     }
  }
  @media screen and (max-width: 568px) {
+    .backmain {
+        background-image: url(../imagens/fundomain.png);
+    }
     footer {
       
         padding-left: 1px;
