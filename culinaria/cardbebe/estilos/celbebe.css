@@ -9,6 +9,9 @@
        body {
         width: 98vw;
        }
+       main {
+        width: 98vw;
+       }
        .h1bebe  {
         height: 600px;
         background-image: url(../imagens/3bebesmenu.jpeg);
@@ -29,7 +32,7 @@
         margin-top: 50px;
         text-align: center;
         color: white;
-        border: 1px solid black;
+        
     }
     .h1bebe > h2 > strong {
         color: yellow;
