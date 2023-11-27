@@ -6,6 +6,9 @@
         padding-left: 1px;
         font-size: .9em;
        }
+       body {
+        width: 98vw;
+       }
        .h1bebe  {
         height: 600px;
         background-image: url(../imagens/3bebesmenu.jpeg);
@@ -13,9 +16,7 @@
         background-repeat: no-repeat;
         
     }
-    main {
-        
-    }
+    
     .h1bebe > h1{
        padding-top: 20px;
         text-shadow: 5px 5px rgb(19, 141, 143);
