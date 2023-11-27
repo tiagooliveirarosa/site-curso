@@ -43,6 +43,59 @@ header > div > a {
     background-image: url(../imagens/fundomain.png);
     background-position: center center;
 }
+.backmain > h1 {
+    color: transparent;
+    background-image: linear-gradient(to bottom, white, #6d6969);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}.backmain > p {
+    text-align: justify;
+    margin: 5px;
+    color: white;
+}
+#st1 {
+    background-color: #F6690B;
+}
+#st2 {
+    font-size: 14px;
+}
+#p1 {
+    margin: 5px;
+    font-size: 13px;
+    width: 230px;
+    background-color: #F6690B;
+}
+#p2 {
+    margin: 5px;
+    font-size: 13px;
+}
+.backmain > h3 {
+    margin: 10px;
+    font-size: 13px;
+    color: white;
+}
+.backmain > a {
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #F6690B;
+    color: white;
+    animation: piscaPisca 1s infinite;
+}
+@keyframes piscaPisca {
+    0% {background-color:#F6690B;}
+    50% {background-color:#F6690B;}
+    55% {background-color:#eec1a3c5;}
+    90% {background-color:#eec1a3c5;}
+    100% {background-color:#F6690B;}
+}
+.backmain > a:hover {
+    animation: none;
+    background-color: #eec1a3c5;
+}
 
 footer {
     
