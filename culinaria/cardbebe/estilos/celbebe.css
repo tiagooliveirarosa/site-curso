@@ -29,6 +29,7 @@
         margin-top: 50px;
         text-align: center;
         color: white;
+        border: 1px solid black;
     }
     .h1bebe > h2 > strong {
         color: yellow;
