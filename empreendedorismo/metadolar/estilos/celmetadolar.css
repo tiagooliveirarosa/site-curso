@@ -33,6 +33,9 @@ header > div > a {
 #home > a:hover {
     color: orange;
 }
+main {
+    width: 98vw;
+}
 
 .backmain {
     width: 100%;
@@ -50,7 +53,9 @@ header > div > a {
     -webkit-background-clip: text;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-bottom: 150px;
 }.backmain > p {
+    
     text-align: justify;
     margin: 5px;
     color: white;
@@ -62,6 +67,7 @@ header > div > a {
     font-size: 14px;
 }
 #p1 {
+    
     margin: 5px;
     font-size: 13px;
     width: 230px;
@@ -71,12 +77,13 @@ header > div > a {
     margin: 5px;
     font-size: 13px;
 }
-.backmain > h3 {
+.backmain > h2 {
     margin: 10px;
     font-size: 13px;
     color: white;
 }
 .backmain > a {
+    
     border-radius: 30px;
     padding: 5px;
     margin-left: 10px;
@@ -96,6 +103,124 @@ header > div > a {
     animation: none;
     background-color: #eec1a3c5;
 }
+.vid01 {
+    margin-top: 20px;
+}
+.vid01 > iframe{
+    
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+.sp{
+    margin-top: 20px;
+}
+.sp > h1 {
+    margin-top: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    width: 350px;
+    background-color: #F6690B;
+    text-align: center;
+}
+.pf {
+    width: 98vw;
+    margin-top: 50px;
+}
+.vini {
+    margin: 20px;
+    width: 500px;
+    display: inline-block;
+}
+.vini > img {
+    display: block;
+    margin: auto;
+}
+.vivi, h3, p {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.linkmd {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.linkmd > h2 {
+    margin: 20px;
+}
+.linkmd > a {
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #F6690B;
+    color: white;
+    animation: piscaPisca 1s infinite;
+}
+@keyframes piscaPisca {
+    0% {background-color:#F6690B;}
+    50% {background-color:#F6690B;}
+    55% {background-color:#eec1a3c5;}
+    90% {background-color:#eec1a3c5;}
+    100% {background-color:#F6690B;}
+}
+.linkmd > a:hover {
+    animation: none;
+    background-color: #eec1a3c5;
+}
+main .dpo {
+    margin: auto;
+}
+.dpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 30px;
+    
+}
+.dvi {
+    width: 300px;
+}
+.pqe > h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+#pqe {
+    color: white;
+    background-color: #F6690B;
+}
+.pp1 {
+    margin: 10px;
+    font-size: 20px;
+}
+.pp2 {
+  width: 100%;
+  
+}
+.dpp2 {
+    display: inline-block;
+   margin: 20px;
+   
+  margin-left: 160px;
+}
+.dpp > img {
+    margin-left: 20px;
+    display: block;
+    margin: auto;
+}
+.dpp > p {
+    text-align: center;
+}
+
 
 footer {
     
@@ -109,115 +234,8 @@ footer, h5, h6 {
     color: white;
 }
 
-@media screen and (max-width: 768px)   {
 
-    
-    #dol02 {
-        position: relative;
-        width: 100vw;
-    }
-    #spdol02 {
         
-        position: absolute;
-        left:1vw ;
-        top: 55vh;
-    }
-    #qg01 {
-        
-        
-        width: 38vw;
-        height: 6vh;
-        border-radius: 35px;
-    }
-
-
-    #dol14 {
-        display: block;
-        justify-content: center;
-    }
-
-    #spvi03 {
-        display: none;
-        
-        
-    }
-
-    #spvid03 {
-        margin: auto;
-        display: block;
-        justify-content: center;
-        
-        
-    }
-    
-    .met17 {
-        margin-top: 80px;
-    }
-
-    .met016 {
-        width: 50vw;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #dol16 {
-        margin-top: 50px;
-        width: 400px;
-        left: 60px;
-        position: absolute;
-        border-radius: 50px;
-       
-    }
-
- }
-
- @media screen and (max-width: 992px) {
-
-    #dol02 {
-        position: relative;
-        width: 100vw;
-    }
-    #spdol02 {
-        width: 50px;
-        position: absolute;
-        left:10px ;
-        top: 430px;
-    }
-    #qg01 {
-        width: 35vw;
-        height: 45px;
-    }
-
-
-    
-    .met016 {
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
-    #dol16 {
-        margin-top: 100px;
-        width: 600px;
-        left: 80px;
-        position: absolute;
-        border-radius: 50px;
-       
-    }
-    .met17 {
-        margin-top: 200px;
-    }
- }
- @media screen and (max-width: 568px) {
-    .backmain {
-        background-image: url(../imagens/fundomain.png);
-    }
-    footer {
-      
-        padding-left: 1px;
-        font-size: .9em;
-       }
-    }
 
 
 
