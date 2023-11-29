@@ -733,6 +733,10 @@
    align-items: center;
    height: 500px;
 }
+.dpp2 > p {
+   font-size: .8em;
+   text-align: center;
+}
 .dpp2{
    width: 33.33%;
    height: 480px;
