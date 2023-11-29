@@ -53,37 +53,40 @@ main {
     -webkit-background-clip: text;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-bottom: 150px;
-}.backmain > p {
+    margin-bottom: 20px;
+}
+.backmain > p {
+    font-size: 40px;
     
     text-align: justify;
     margin: 5px;
     color: white;
 }
 #st1 {
+    
     background-color: #F6690B;
 }
 #st2 {
-    font-size: 14px;
+    font-size: 30px;
 }
 #p1 {
     
     margin: 5px;
-    font-size: 13px;
-    width: 230px;
+    font-size: 30px;
+    width: 300px;
     background-color: #F6690B;
 }
 #p2 {
     margin: 5px;
-    font-size: 13px;
+    font-size: 30px;
 }
 .backmain > h2 {
     margin: 10px;
-    font-size: 13px;
+    font-size: 25px;
     color: white;
 }
 .backmain > a {
-    
+    font-size: 30px;
     border-radius: 30px;
     padding: 5px;
     margin-left: 10px;
@@ -104,7 +107,7 @@ main {
     background-color: #eec1a3c5;
 }
 .vid01 {
-    margin-top: 20px;
+    margin-top: 150px;
 }
 .vid01 > iframe{
     
@@ -173,19 +176,26 @@ main {
     animation: none;
     background-color: #eec1a3c5;
 }
-main .dpo {
+/*main .dpo {
     margin: auto;
-}
+}*/
 .dpo {
+    
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 600px;
-    margin: 30px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   height: 600px;
     
 }
 .dvi {
-    width: 300px;
+    width: 320px;
+    height: 280px;
+}
+.dvi > iframe {
+    display: block;
+    margin: auto;
 }
 .pqe > h1 {
     font-size: 40px;
@@ -202,23 +212,48 @@ main .dpo {
     margin: 10px;
     font-size: 20px;
 }
+
 .pp2 {
-  width: 100%;
-  
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
-.dpp2 {
-    display: inline-block;
-   margin: 20px;
-   
-  margin-left: 160px;
+.dpp2{
+    width: 33.33%;
+    height: 300px;
 }
-.dpp > img {
-    margin-left: 20px;
+.dpp2 > img {
     display: block;
     margin: auto;
 }
-.dpp > p {
+.gar {
+    margin: 20px;
+}
+.gar > h1 {
+    color: white;
     text-align: center;
+}
+.gar > img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.gar > p {
+    color: white;
+    text-align: center;
+}
+
+.rodp > img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 100px;
 }
 
 

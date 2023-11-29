@@ -1,11 +1,678 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (max-width:2560px){
+   main {
+      width: 98vw;
+  }
   
-}
-@media screen and (max-width: 568px) {
-   footer {
+  .backmain {
+      width: 100%;
+      background-color: #131313;
+      background-size: 100% 400px ;
+      background-repeat: no-repeat;
+      height: 400px;
+      background-image: url(../imagens/fundomain.png);
+      background-position: center center;
+  }
+  .backmain > h1 {
+      color: transparent;
+      background-image: linear-gradient(to bottom, white, #6d6969);
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .backmain > p {
+      font-size: 50px;
       
+      text-align: justify;
+      margin: 5px;
+      color: white;
+  }
+  #st1 {
+      
+      background-color: #F6690B;
+  }
+  #st2 {
+      font-size: 50px;
+  }
+  #p1 {
+      
+      margin: 5px;
+      font-size: 50px;
+      width: 300px;
+      background-color: #F6690B;
+  }
+  #p2 {
+      margin: 5px;
+      font-size: 50px;
+  }
+  .backmain > h2 {
+      margin: 10px;
+      font-size: 50px;
+      color: white;
+  }
+  .backmain > a {
+      font-size: 30px;
+      border-radius: 30px;
+      padding: 5px;
+      margin-left: 10px;
+      text-decoration: none;
+      background-color: #F6690B;
+      color: white;
+      animation: piscaPisca 1s infinite;
+  }
+  @keyframes piscaPisca {
+      0% {background-color:#F6690B;}
+      50% {background-color:#F6690B;}
+      55% {background-color:#eec1a3c5;}
+      90% {background-color:#eec1a3c5;}
+      100% {background-color:#F6690B;}
+  }
+  .backmain > a:hover {
+      animation: none;
+      background-color: #eec1a3c5;
+  }
+  .vid01 {
+      margin-top: 150px;
+  }
+  .vid01 > iframe{
+      
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      display: block;
+  }
+  .sp{
+      margin-top: 20px;
+  }
+  .sp > h1 {
+      margin-top: 20px;
+      color: white;
+      display: block;
+      margin: auto;
+      font-size: 30px;
+      width: 350px;
+      background-color: #F6690B;
+      text-align: center;
+  }
+  .pf {
+      width: 98vw;
+      margin-top: 50px;
+  }
+  .vini {
+      margin: 20px;
+      width: 500px;
+      display: inline-block;
+  }
+  .vini > img {
+      display: block;
+      margin: auto;
+  }
+  .vivi, h3, p {
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  .linkmd {
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  .linkmd > h2 {
+      margin: 20px;
+  }
+  .linkmd > a {
+      font-size: 30px;
+      border-radius: 30px;
+      padding: 5px;
+      margin-left: 10px;
+      text-decoration: none;
+      background-color: #F6690B;
+      color: white;
+      animation: piscaPisca 1s infinite;
+  }
+  @keyframes piscaPisca {
+      0% {background-color:#F6690B;}
+      50% {background-color:#F6690B;}
+      55% {background-color:#eec1a3c5;}
+      90% {background-color:#eec1a3c5;}
+      100% {background-color:#F6690B;}
+  }
+  .linkmd > a:hover {
+      animation: none;
+      background-color: #eec1a3c5;
+  }
+  /*main .dpo {
+      margin: auto;
+  }*/
+  .dpo {
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+     height: 600px;
+      
+  }
+  .dvi {
+      width: 320px;
+      height: 280px;
+  }
+  .dvi > iframe {
+      display: block;
+      margin: auto;
+  }
+  .pqe > h1 {
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  #pqe {
+      color: white;
+      background-color: #F6690B;
+  }
+  .pp1 {
+      margin: 10px;
+      font-size: 20px;
+  }
+  
+  .pp2 {
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+  }
+  .dpp2{
+      width: 33.33%;
+      height: 300px;
+  }
+  .dpp2 > img {
+      display: block;
+      margin: auto;
+  }
+  .gar {
+      margin: 20px;
+  }
+  .gar > h1 {
+      color: white;
+      text-align: center;
+  }
+  .gar > img {
+      display: block;
+      margin: auto;
+      width: 150px;
+      height: 150px;
+  }
+  .gar > p {
+      color: white;
+      text-align: center;
+  }
+  
+  .rodp > img {
+      padding-top: 20px;
+      display: block;
+      margin: auto;
+      width: 800px;
+      height: 100px;
+  }
+  
+  
+  footer {
+      
+      background-color: #4444F1;
+      columns: 2;
+      padding-left: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  footer, h5, h6 {
+      color: white;
+  }
+}
+
+@media screen and (min-width: 992px) {
+   main {
+      width: 98vw;
+  }
+  
+  .backmain {
+      width: 100%;
+      background-color: #131313;
+      background-size: 100% 400px ;
+      background-repeat: no-repeat;
+      height: 400px;
+      background-image: url(../imagens/fundomain.png);
+      background-position: center center;
+  }
+  .backmain > h1 {
+      color: transparent;
+      background-image: linear-gradient(to bottom, white, #6d6969);
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .backmain > p {
+      font-size: 50px;
+      
+      text-align: justify;
+      margin: 5px;
+      color: white;
+  }
+  #st1 {
+      
+      background-color: #F6690B;
+  }
+  #st2 {
+      font-size: 50px;
+  }
+  #p1 {
+      
+      margin: 5px;
+      font-size: 50px;
+      width: 300px;
+      background-color: #F6690B;
+  }
+  #p2 {
+      margin: 5px;
+      font-size: 50px;
+  }
+  .backmain > h2 {
+      margin: 10px;
+      font-size: 50px;
+      color: white;
+  }
+  .backmain > a {
+      font-size: 30px;
+      border-radius: 30px;
+      padding: 5px;
+      margin-left: 10px;
+      text-decoration: none;
+      background-color: #F6690B;
+      color: white;
+      animation: piscaPisca 1s infinite;
+  }
+  @keyframes piscaPisca {
+      0% {background-color:#F6690B;}
+      50% {background-color:#F6690B;}
+      55% {background-color:#eec1a3c5;}
+      90% {background-color:#eec1a3c5;}
+      100% {background-color:#F6690B;}
+  }
+  .backmain > a:hover {
+      animation: none;
+      background-color: #eec1a3c5;
+  }
+  .vid01 {
+      margin-top: 150px;
+  }
+  .vid01 > iframe{
+      
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      display: block;
+  }
+  .sp{
+      margin-top: 20px;
+  }
+  .sp > h1 {
+      margin-top: 20px;
+      color: white;
+      display: block;
+      margin: auto;
+      font-size: 30px;
+      width: 350px;
+      background-color: #F6690B;
+      text-align: center;
+  }
+  .pf {
+      width: 98vw;
+      margin-top: 50px;
+  }
+  .vini {
+      margin: 20px;
+      width: 500px;
+      display: inline-block;
+  }
+  .vini > img {
+      display: block;
+      margin: auto;
+  }
+  .vivi, h3, p {
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  .linkmd {
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  .linkmd > h2 {
+      margin: 20px;
+  }
+  .linkmd > a {
+      font-size: 30px;
+      border-radius: 30px;
+      padding: 5px;
+      margin-left: 10px;
+      text-decoration: none;
+      background-color: #F6690B;
+      color: white;
+      animation: piscaPisca 1s infinite;
+  }
+  @keyframes piscaPisca {
+      0% {background-color:#F6690B;}
+      50% {background-color:#F6690B;}
+      55% {background-color:#eec1a3c5;}
+      90% {background-color:#eec1a3c5;}
+      100% {background-color:#F6690B;}
+  }
+  .linkmd > a:hover {
+      animation: none;
+      background-color: #eec1a3c5;
+  }
+  /*main .dpo {
+      margin: auto;
+  }*/
+  .dpo {
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+     height: 600px;
+      
+  }
+  .dvi {
+      width: 320px;
+      height: 280px;
+  }
+  .dvi > iframe {
+      display: block;
+      margin: auto;
+  }
+  .pqe > h1 {
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      text-align: center;
+      color: white;
+  }
+  #pqe {
+      color: white;
+      background-color: #F6690B;
+  }
+  .pp1 {
+      margin: 10px;
+      font-size: 20px;
+  }
+  
+  .pp2 {
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+  }
+  .dpp2{
+      width: 33.33%;
+      height: 300px;
+  }
+  .dpp2 > img {
+      display: block;
+      margin: auto;
+  }
+  .gar {
+      margin: 20px;
+  }
+  .gar > h1 {
+      color: white;
+      text-align: center;
+  }
+  .gar > img {
+      display: block;
+      margin: auto;
+      width: 150px;
+      height: 150px;
+  }
+  .gar > p {
+      color: white;
+      text-align: center;
+  }
+  
+  .rodp > img {
+      padding-top: 20px;
+      display: block;
+      margin: auto;
+      width: 800px;
+      height: 100px;
+  }
+  
+  
+  footer {
+      
+      background-color: #4444F1;
+      columns: 2;
+      padding-left: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  footer, h5, h6 {
+      color: white;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+.backmain > p {
+   font-size: 30px;
+   
+   text-align: justify;
+   margin: 5px;
+   color: white;
+}
+#st1 {
+   
+   background-color: #F6690B;
+}
+#st2 {
+   font-size: 20px;
+} 
+#p1 {
+   
+   margin: 5px;
+   font-size: 20px;
+   width: 300px;
+   background-color: #F6690B;
+}
+#p2 {
+   margin: 5px;
+   font-size: 20px;
+}
+.backmain > h2 {
+   margin: 10px;
+   font-size: 25px;
+   color: white;
+}
+}
+
+@media screen and (min-width: 768px) {
+.backmain > p {
+   font-size: 30px;
+   
+   text-align: justify;
+   margin: 5px;
+   color: white;
+}
+#st1 {
+   
+   background-color: #F6690B;
+}
+#st2 {
+   font-size: 20px;
+}
+#p1 {
+   
+   margin: 5px;
+   font-size: 20px;
+   width: 300px;
+   background-color: #F6690B;
+}
+#p2 {
+   margin: 5px;
+   font-size: 20px;
+}
+.backmain > h2 {
+   margin: 10px;
+   font-size: 20px;
+   color: white;
+}
+}
+@media screen and (min-width: 320px) {
+   .backmain > p {
+      font-size: 20px;
+   }
+   #st1 {
+      
+      background-color: #F6690B;
+   }
+   #st2 {
+      font-size: 13px;
+   }
+   #p1 {
+      font-size: 15px;
+      width: 230px;
+   }
+   #p2 {
+      font-size: 13px;
+   }
+   .backmain > h2 {
+      font-size: 15px;
+   }
+   .backmain > a {
+      font-size: 20px;
+  }
+  .dpo {
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   flex-wrap: wrap;
+  height: 550px;
+   
+}
+.dvi {
+   width: 30%;
+   height: 250px;
+}
+.dvi > iframe {
+   display: block;
+   margin: auto;
+}
+.rodp > img {
+  
+   width: 320px;
+   height: 85px;
+}
+}
+@media screen and (min-width: 568px) {
+   .backmain > p {
+      font-size: 30px;
+      
+      text-align: justify;
+      margin: 5px;
+      color: white;
+   }
+   #st1 {
+      
+      background-color: #F6690B;
+   }
+   #st2 {
+      font-size: 20px;
+   }
+   #p1 {
+      
+      margin: 5px;
+      font-size: 20px;
+      width: 300px;
+      background-color: #F6690B;
+   }
+   #p2 {
+      margin: 5px;
+      font-size: 20px;
+   }
+   .backmain > h2 {
+      margin: 10px;
+      font-size: 20px;
+      color: white;
+   }
+}
+
+@media screen and (max-width: 568px) {
+   .backmain > p {
+      font-size: 20px;
+   }
+   #st1 {
+      
+      background-color: #F6690B;
+   }
+   #st2 {
+      font-size: 13px;
+   }
+   #p1 {
+      font-size: 15px;
+      width: 230px;
+   }
+   #p2 {
+      font-size: 13px;
+   }
+   .backmain > h2 {
+      font-size: 15px;
+   }
+   .backmain > a {
+      font-size: 20px;
+  }
+  .dpo {
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   flex-wrap: wrap;
+  height: 550px;
+   
+}
+.dvi {
+   width: 30%;
+   height: 250px;
+}
+.dvi > iframe {
+   display: block;
+   margin: auto;
+}
+.rodp > img {
+  
+   width: 320px;
+   height: 85px;
+}
+   footer {
       padding-left: 1px;
       font-size: .9em;
      }
