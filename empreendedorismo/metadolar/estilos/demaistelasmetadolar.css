@@ -672,6 +672,27 @@
    width: 320px;
    height: 85px;
 }
+.linkmd > a {
+   font-size: 20px;
+   border-radius: 30px;
+   padding: 5px;
+   margin-left: 10px;
+   text-decoration: none;
+   background-color: #F6690B;
+   color: white;
+   animation: piscaPisca 1s infinite;
+}
+@keyframes piscaPisca {
+   0% {background-color:#F6690B;}
+   50% {background-color:#F6690B;}
+   55% {background-color:#eec1a3c5;}
+   90% {background-color:#eec1a3c5;}
+   100% {background-color:#F6690B;}
+}
+.linkmd > a:hover {
+   animation: none;
+   background-color: #eec1a3c5;
+}
    footer {
       padding-left: 1px;
       font-size: .9em;
