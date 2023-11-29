@@ -671,8 +671,12 @@
    .backmain > a {
       font-size: 20px;
   }
+  .sp > h1 {
+   font-size: 20px;
+   width: 250px;
+  }
   .dpo {
-   width: 350px;
+   width: 320px;
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -718,6 +722,23 @@
 .linkmd > a:hover {
    animation: none;
    background-color: #eec1a3c5;
+}
+.pp2 {
+   margin: 10px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   height: 500px;
+}
+.dpp2{
+   width: 33.33%;
+   height: 480px;
+}
+.dpp2 > img {
+   display: block;
+   margin: auto;
 }
    footer {
       padding-left: 1px;

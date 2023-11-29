@@ -218,13 +218,13 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 500px;
 }
 .dpp2{
     width: 33.33%;
-    height: 300px;
+    height: 480px;
 }
 .dpp2 > img {
     display: block;
