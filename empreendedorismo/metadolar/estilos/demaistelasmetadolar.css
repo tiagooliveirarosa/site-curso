@@ -694,6 +694,9 @@
    width: 320px;
    height: 85px;
 }
+.linkmd > h2 {
+   font-size: 20px;
+}
 .linkmd > a {
    width: 250px;
    font-size: 15px;
