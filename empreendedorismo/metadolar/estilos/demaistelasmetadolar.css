@@ -592,6 +592,7 @@
    height: 85px;
 }
 .linkmd > a {
+   width: 250px;
    font-size: 15px;
    border-radius: 30px;
    padding: 5px;
@@ -694,6 +695,7 @@
    height: 85px;
 }
 .linkmd > a {
+   width: 250px;
    font-size: 15px;
    border-radius: 30px;
    padding: 5px;
