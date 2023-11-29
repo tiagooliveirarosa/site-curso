@@ -724,6 +724,7 @@
    background-color: #eec1a3c5;
 }
 .pp2 {
+   width: 320px;
    margin: 10px;
    display: flex;
    flex-direction: row;
