@@ -773,9 +773,15 @@
    display: block;
    margin: auto;
 }
+.vini > img {
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: auto;
+}
 .vivi, h3, p {
     font-size: 15px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     color: white;
 }
