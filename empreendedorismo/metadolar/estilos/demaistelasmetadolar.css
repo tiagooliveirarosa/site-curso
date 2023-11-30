@@ -773,6 +773,12 @@
    display: block;
    margin: auto;
 }
+.vivi, h3, p {
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
    footer {
       padding-left: 1px;
       font-size: .8em;
