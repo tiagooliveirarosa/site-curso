@@ -779,6 +779,11 @@
     display: block;
     margin: auto;
 }
+.vini {
+    margin: 10px;
+    width: 320px;
+    display: inline-block;
+}
 .vivi, h3, p {
     font-size: 15px;
     margin: 10px;
