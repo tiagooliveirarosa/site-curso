@@ -712,7 +712,7 @@
    
 }
 .dvi {
-   
+   width: 320px;
    height: 250px;
 }
 .dvi > iframe {
