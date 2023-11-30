@@ -574,11 +574,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    
    height: 620px;
     
  }
  .dvi {
+
     width: 318px;
     height: 300px;
  }
