@@ -569,23 +569,24 @@
       font-size: 20px;
   }
   .dpo {
-   width: 350px;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   flex-direction: column;
-   flex-wrap: wrap;
-  height: 550px;
-   
-}
-.dvi {
-   width: 30%;
-   height: 250px;
-}
-.dvi > iframe {
-   display: block;
-   margin: auto;
-}
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   height: 550px;
+    
+ }
+ .dvi {
+    width: 318px;
+    height: 300px;
+ }
+ .dvi > iframe {
+    width: 300px;
+    height: 300px;
+    
+ }
 .rodp > img {
   
    width: 320px;
