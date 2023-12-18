@@ -88,6 +88,13 @@
         
         width: 350px;
      }
+     .vid02 > iframe {
+        width: 150px;
+        height: 150px;
+     } 
+    
+        
+    }
 
    
 }
