@@ -36,7 +36,7 @@ header > div > a {
 }
 .link01 {position: relative;
     margin-top: 30px;
-    width: 100vw;
+   
     height: 80px;
     display: flex;
     justify-content: center;
@@ -59,16 +59,19 @@ header > div > a {
 
 .vid01 {
     background-color: #FFFFFF;
-    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
 .vid02 {
-    width: 100vw;
+    
     background-color: #1565BF;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main {
+    background-color: #EEEEF2;
 }
 .imag01 > p {
     text-align: center;
@@ -169,6 +172,7 @@ color: #186CC8;
 }
 .imag05 {
     background-color: #1565BF;
+    padding-bottom: 40px;
 }
 
 .imag05 > content {
@@ -208,14 +212,168 @@ color: white;
     text-align: center;
     color: white;
     }
+    .imag06 {
+        background-color: #EEEEF2;
+    }
+.imag06 > img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    width: 600px;
+    }
+    .imag06 > p {
+        text-align: center;
+        margin: 20px;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .link02 {position: relative;
+        margin-top: 30px;
+        
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        background-color: #EEEEF2;
+    }
+    .link02 > a {
+        position: absolute;
+        padding: 10px 10px 10px 20px;
+        margin-bottom: 10px;
+        background-color: #F5464D;
+        display: flex;
+        border-radius: 40px;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+    .link02 > a:hover {
+        background-color: rgb(101, 101, 228);
+        box-shadow:30px black;
+    }
+    .imag07 {
+        background-color: white;
+        text-align: center;
+        margin: 10px;
+    }
+    .imag07 > h2 {
+        font-size: 55px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    .imag07 > p {
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    .imag08 {
+        text-align: center;
+    }
+    .imag08 > content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imag08 > h2 {
+        background-color: #4588D4;
+        color: white;
+        font-size: 55px;
+    }
+    .imag08 > h2 > strong {
+        color: #bbcadc;
+    }
+    .imag08 > h4 {
+        background-color: #4588D4;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .imag08 > content > p > strong {
+        font-size: 50px;
+        font-weight: bolder;
+ }
+ .imag08 > content > p > strong#st {
+    color: #186CC8;
+ }
+ .imag08 > content > p {
+    font-size: 19px;
+ }
+ .imag09 {
+    background-color: black;
+ }
+ .imag09 > content {
+    margin: 0px 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+ }
+    .imag09 > content > div#imaid01> div#id01 {
+        background-color: white;
+        border-radius: 30%;
+        
+    }
+    .imag09 > content > div#imaid01> div#id01:hover {
+        background-color: #4588D4;
+    }
+ .imag09 > content > div#imaid01> div#id01 > p {
+    text-align: center;
+    margin: 5px;
+    align-content: center;
+    align-self: center;
+    padding: 20px;
+ }
+ .imag09 > content > div#imaid01> div#id01 > img {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    align-self: center;
+    display: block;
+    margin: auto;
+    padding: 20px;
+ }
+ .imag10 > content {
+    background-color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .imag10 > content > img {
+    width: 150px;
+    margin: 10px;
+ }
+ .imag11 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .imag11 > content {
+    display: flex;
+    justify-content: space-around;
+ }
+ .imag11 > content > img {
+    width: 350px;
+ }
+ .imag11 > content > p {
+    font-size: 25px;
+ }
+ .imag12 > img {
+    display: block;
+    margin: auto;
+    width: 600px;
+ }
+ .imag13 {
+    background-color: black;
+    }
+    .imag13 > p {
+      color: white;
+      text-wrap: 2px;
+      font-size: 14px;
+      padding: 10px;
+      margin-left: 30px;
+      
+    }
 
 
-#grin33 {
-    width: 400px;
-}
-#grinfi {
-    width: 650px;
-}
 
 footer {
     
