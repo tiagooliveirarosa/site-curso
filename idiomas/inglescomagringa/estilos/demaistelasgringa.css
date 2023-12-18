@@ -92,6 +92,11 @@
         width: 150px;
         height: 150px;
      } 
+     footer {
+      
+        padding-left: 1px;
+        font-size: .8em;
+       }
     
         
     }
