@@ -5,11 +5,89 @@
         width: 300px;
         height: 300px;
     }
+    .imag02 > content > img {
+        width: 20px;
+        height: 20px;
+    }
+    .imag02 > content > p {
+        font-size: 12px;
+    }
+    .imag03 > content > h3 {
+        align-self: center;
+        font-size: 20px;
+        font-weight: 900;
+      }
+      .imag03 > content > p {
+        font-size: 12px;
+    }
+    .imag04 > content > p {
+        font-size: 12px;
+    }
+    .imag04 > content > p > strong {
+    font-size: 20px;
+    }
+    .imag04 > content > img {
+        width: 200px;
+    }
+    .imag05 > content > div#imaid {
+       
+        width: 120px;
+        height: 130px;
+        }
+    .imag05 > content > div#imaid > p > strong {
+        font-size: 12px;
+    }
+    .imag06 > img {
+        width: 300px;
+        }
+        .imag08 > h2 {
+            font-size: 12px;
+        }
+        .imag08 > h4 {
+            font-size: 12px;
+        }
+        .imag08 > content > p > strong {
+            font-size: 15px;
+     }
+     .imag08 > content > p {
+        font-size: 12px;
+     }
+     .imag08 > content > img {
+        width: 100px;
+     }
+     .imag09 > content > div#imaid01> div#id01 > img {
+        width: 80px;
+        height: 80px;
+        
+     }
+     .imag09 > content > div#imaid01> div#id01 > p {
+        padding: 10px;
+        font-size: 12px;
+     }
+     .imag09 > content {
+        margin: 0px 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+     .imag10 > content > img {
+        width: 100px;
+        margin: 10px;
+     }
+     .imag10 > content > p {
+        font-size: 12px;
+     }
+     .imag11 > content > img {
+        width: 200px;
+        height: 250px;
+        
+     }
+     .imag11 > content > p {
+        font-size: 12px;
+     }
+     .imag12 > img {
+        
+        width: 350px;
+     }
 
-    #grin32 {
-        width: 400px;
-    }
-    #grinfi {
-        width: 500px;
-    }
+   
 }
